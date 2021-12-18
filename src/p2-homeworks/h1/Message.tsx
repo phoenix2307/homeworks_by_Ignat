@@ -21,6 +21,11 @@ function Message(props: MessagePropsType) {
             <div className={s.image}>
                 <img src={props.avatar} alt={'avatar'}/>
             </div>
+            {/*не нашел решения для уголка подсмотрел
+            вариант у Игната:
+            <div className={s.angle}></div>
+            */}
+
             <div className={s.text_field}>
                 <div className={s.name}>{props.name}</div>
                 <div className={s.text}>{props.message} <span className={s.time}>{props.time}</span></div>

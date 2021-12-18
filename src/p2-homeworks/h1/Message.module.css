@@ -1,29 +1,37 @@
 .message {
     display: flex;
     background-color: #bbe865;
+    align-items: flex-end;
+    padding: 5px;
+
 }
 
 
 .image img {
-    align-items: flex-end;
     width: 50px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 50%;
     border: 1px solid #737373;
-    margin: 55% 0px 0px 10px;
+
 }
 
 .text_field {
-    align-items: flex-end;
-    width: 200px;
-    height: 75%;
+/*    width: 200px;
+    height: 75%;*/
     border: 1px solid #919191;
-    border-radius: 10px;
-    margin: 4px 0px 4px 10px;
+    /*border-radius: 5px 5px 5px 0;*/
+    border-radius: 5px;
+    margin-left: 10px;
     background-color: #3d9364;
     padding: 10px;
     font-size: 14px;
 }
+
+/*.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #3d9364 0);
+}*/
 
 .name {
     color: #b892f8;
@@ -31,6 +39,7 @@
 
 .text {
     color: white;
+    /*word-wrap: ;*/
 }
 
 .time {
