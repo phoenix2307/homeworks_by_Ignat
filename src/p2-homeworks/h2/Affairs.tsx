@@ -4,7 +4,8 @@ import {AffairType, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: Dispatch<React.SetStateAction<FilterType>>
+    setFilter:  Dispatch<React.SetStateAction<FilterType>>
+    //вариант типизации Игната: setFilter: (filter: FilterType) => void
     deleteAffairCallback: (_id: number) => void
 }
 

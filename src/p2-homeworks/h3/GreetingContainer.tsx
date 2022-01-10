@@ -24,9 +24,11 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         if (validName) {
             setName(e.currentTarget.value)
             setError('')
+            // лучше обнулять ошибку при условия, что она была: error && setError('')
         } else {
+            // name && setName('')
             setError('error')
-            // setName('')
+
         }
         console.log()
     }

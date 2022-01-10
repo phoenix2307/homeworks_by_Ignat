@@ -3,8 +3,8 @@ import {AffairType} from "./HW2";
 
 type AffairPropsType = {
     // key не нужно типизировать
-    affair: AffairType // need to fix any
-    deleteAffairCallback: (_id: number) => void // need to fix any
+    affair: AffairType // need to fix any +
+    deleteAffairCallback: (_id: number) => void // need to fix any +
 }
 
 function Affair(props: AffairPropsType) {
