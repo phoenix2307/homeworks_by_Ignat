@@ -14,8 +14,8 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
-    const inputClass = error === 'error' ? s.error : ''// need to fix with (?:) +
-    const errorClass = error === 'error' ? s.error : ''
+    const inputClass = error === 'error' ? s.errorStyle : s.superInput// need to fix with (?:) +
+    const errorClass = error === 'error' ? s.errorStyle : s.superInput
     const activeButton =  error === 'error'
 
     return (
@@ -25,7 +25,8 @@ const Greeting: React.FC<GreetingPropsType> = (
                    className={inputClass}/>
 
             <button onClick={addUser}
-                    disabled={activeButton}>add</button>
+                    disabled={activeButton}
+            className={s.buttonGrey}>add</button>
 
             <span>{totalUsers}</span>
             <div>

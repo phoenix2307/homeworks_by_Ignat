@@ -6,7 +6,7 @@ import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
 function HW4() {
     const [text, setText] = useState<string>('')
-    const error = text ? '' : 'error'
+    const error = text ? '' : 'ERROR'
 
     const showAlert = () => {
         if (error) {
@@ -22,7 +22,7 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
+            <h4>Homeworks 4</h4>
 
             <div className={s.column}>
                 <SuperInputText
@@ -50,7 +50,9 @@ function HW4() {
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled>
+                <SuperButton
+                    disabled
+                             className={s.disable}>
                     disabled
                 </SuperButton>
 

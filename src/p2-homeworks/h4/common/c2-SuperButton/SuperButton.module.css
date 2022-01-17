@@ -1,7 +1,62 @@
 .default {
-
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    margin: 3px;
+    min-width: 80px;
 }
 
+
+.default:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.default:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
 .red {
-    background: red;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(255, 11, 11) linear-gradient(#c51515, #e72424);
+    transition: all .218s ease 0s;
+    margin: 3px;
+    min-width: 80px;
 }
+.red:hover {
+    color: rgb(255 4 4);
+    border: 1px solid rgb(255 0 0);
+    background: #ffd2d2 linear-gradient(#cec9c985, #dedede8a);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+.red:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+
