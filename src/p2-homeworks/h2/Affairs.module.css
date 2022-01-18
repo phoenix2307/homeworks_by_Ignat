@@ -13,7 +13,7 @@
     border-radius: 3px;
     background: #eee7e766;
 }
-
+/*------------------------------------------*/
 .buttonGrey {
     display: inline-block;
     font-family: arial,sans-serif;
@@ -42,4 +42,32 @@
     background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
     box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
 }
+/*------------------------------------------*/
+.style_high {
+background: rgba(239, 116, 116, 0.46);
+}
+.style_high:hover {
+    background: rgba(241, 241, 241, 0.62);
+    border-color: rgba(245, 42, 42, 0.58);
+}
 
+.style_middle {
+    background: rgba(239, 245, 12, 0.49);
+
+}
+.style_middle:hover {
+    background: rgba(241, 241, 241, 0.62);
+    border-color: rgba(235, 250, 26, 0.94);
+}
+
+.style_low {
+    background: rgba(116, 239, 165, 0.44);
+}
+.style_low:hover {
+    background: rgba(241, 241, 241, 0.62);
+    border-color: rgb(36, 245, 147);
+}
+
+.delete_button:hover {
+    color: red;
+}
