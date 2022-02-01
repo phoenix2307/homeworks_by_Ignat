@@ -12,10 +12,10 @@ function App() {
             <div>
                 <h3>REACT HOMEWORKS:</h3>
             </div>
-            <HW1/>
-            <HW2/>
-            <HW3/>
-            <HW4/>
+            {/*<HW1/>*/}
+            {/*<HW2/>*/}
+            {/*<HW3/>*/}
+            {/*<HW4/>*/}
             <HW5/>
 
         </div>
