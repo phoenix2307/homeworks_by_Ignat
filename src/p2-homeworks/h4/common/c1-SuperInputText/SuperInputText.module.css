@@ -1,8 +1,5 @@
 /**:focus {outline:none !important}*/
 
-
-
-
 .error {
     color: red;
     font-family:inherit;
@@ -14,7 +11,7 @@
 .errorStyle {
     outline:none;
     width: 200px;
-    height: 18px;
+    height: 30px;
     margin: 5px;
     padding: 5px;
     border-left: #f4433670 2px solid;
@@ -37,7 +34,7 @@
 .superInput {
     outline:none;
     width: 200px;
-    height: 18px;
+    height: 30px;
     margin: 5px;
     padding: 5px;
     border-left: #607d8b70 2px solid;

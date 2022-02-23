@@ -1,13 +1,76 @@
-.nav {
-    background-color: #87859f;
-    padding: 20px;
-}
+/*
+.test {
+    width: 100px;
+    height: 25px;
+    background-color: #61dafb;
+    border: 1px solid black;
+    text-align: center;
 
-.item a {
-    color: white;
+}*/
+
+.wrapper {
+    display: flex;
+
+}
+a {
     text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #03f4cd;
+}
+.menuButton{
+    height: 30px;
+    width: 60px;
+    background-color: #b8b3b3;
+    color: #f9faff;
+    font-weight: bold;
+    border: 2px solid #a2b0fc;
+    padding: 4px 2px 0 2px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.menuButton:hover{
+    color: #8b8888;
+    border: 2px solid #767676;
+    cursor: pointer;
+    background-color: #d9e4ff;
+}
+.page {
+    display: inline-block;
+    height: 30px;
+    min-width: 100px;
+    background-color: #898a8a;
+    color: #fff;
+    border: 1px solid #2196f3;
+    margin: 1px;
+    padding: 2px 0 3px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.page:hover{
+    color: #03f4cd;
+    border: 2px solid #03f4cd;
+    cursor: pointer;
+}
+/*.nav {*/
+/*    background-color: #87859f;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.item a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.item a.activeLink {*/
+/*    color: gold;*/
+/*}*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.item a.activeLink {
-    color: gold;
-}
+
