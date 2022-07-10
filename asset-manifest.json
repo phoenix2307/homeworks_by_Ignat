@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/homeworks_by_Ignat/static/css/main.c17f0190.chunk.css",
-    "main.js": "/homeworks_by_Ignat/static/js/main.d685e416.chunk.js",
-    "main.js.map": "/homeworks_by_Ignat/static/js/main.d685e416.chunk.js.map",
-    "runtime-main.js": "/homeworks_by_Ignat/static/js/runtime-main.b2732c59.js",
-    "runtime-main.js.map": "/homeworks_by_Ignat/static/js/runtime-main.b2732c59.js.map",
-    "static/js/2.1794f8ac.chunk.js": "/homeworks_by_Ignat/static/js/2.1794f8ac.chunk.js",
-    "static/js/2.1794f8ac.chunk.js.map": "/homeworks_by_Ignat/static/js/2.1794f8ac.chunk.js.map",
+    "main.css": "/homeworks_by_Ignat/static/css/main.09220add.chunk.css",
+    "main.js": "/homeworks_by_Ignat/static/js/main.62ebb432.chunk.js",
+    "main.js.map": "/homeworks_by_Ignat/static/js/main.62ebb432.chunk.js.map",
+    "runtime-main.js": "/homeworks_by_Ignat/static/js/runtime-main.23987ee5.js",
+    "runtime-main.js.map": "/homeworks_by_Ignat/static/js/runtime-main.23987ee5.js.map",
+    "static/js/2.9dce50e1.chunk.js": "/homeworks_by_Ignat/static/js/2.9dce50e1.chunk.js",
+    "static/js/2.9dce50e1.chunk.js.map": "/homeworks_by_Ignat/static/js/2.9dce50e1.chunk.js.map",
     "index.html": "/homeworks_by_Ignat/index.html",
-    "static/css/main.c17f0190.chunk.css.map": "/homeworks_by_Ignat/static/css/main.c17f0190.chunk.css.map",
-    "static/js/2.1794f8ac.chunk.js.LICENSE.txt": "/homeworks_by_Ignat/static/js/2.1794f8ac.chunk.js.LICENSE.txt"
+    "static/css/main.09220add.chunk.css.map": "/homeworks_by_Ignat/static/css/main.09220add.chunk.css.map",
+    "static/js/2.9dce50e1.chunk.js.LICENSE.txt": "/homeworks_by_Ignat/static/js/2.9dce50e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2732c59.js",
-    "static/js/2.1794f8ac.chunk.js",
-    "static/css/main.c17f0190.chunk.css",
-    "static/js/main.d685e416.chunk.js"
+    "static/js/runtime-main.23987ee5.js",
+    "static/js/2.9dce50e1.chunk.js",
+    "static/css/main.09220add.chunk.css",
+    "static/js/main.62ebb432.chunk.js"
   ]
 }
