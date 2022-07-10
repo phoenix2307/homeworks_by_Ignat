@@ -36,8 +36,17 @@ function Header() {
                 </div>
             }
 
+            {/*<div className={s.headerTwo}>*/}
+            {/*    <div className={s.pageTwo}>preJunior</div>*/}
+            {/*    <div className={s.pageTwo}>Junior</div>*/}
+            {/*    <div className={s.pageTwo}>Junior+</div>*/}
+            {/*    <div className={s.block}></div>*/}
+
+            {/*</div>*/}
+
         </div>
 
     )
 }
-export default  Header
+
+export default Header
